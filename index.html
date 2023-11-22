@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lit</title>
+    <script type="module" src="components/simple-button.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <simple-button>
+            <span slot="content">
+                Hello I am a simple button
+            </span>
+    </simple-button>
+    <simple-button
+            variant="primary"
+    >
+     <span slot="content">
+         Hello I am a primary simple button
+     </span>
+    </simple-button>
+    <simple-button
+            variant="secondary"
+    >
+     <span slot="content">
+         Hello I am a secondary simple button
+     </span>
+    </simple-button>
+    <simple-button
+            submit="true"
+            variant="primary"
+    >
+     <span slot="content">
+         Hello I am a primary simple submit button
+     </span>
+    </simple-button>
+    <button>Hello I am a button</button>
+</body>
+</html>

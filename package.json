@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "lit": "^3.1.0",
+    "serve": "^14.2.1"
+  },
+  "scripts": {
+    "dev": "web-dev-server"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.1"
+  },
+  "type": "module"
+}
